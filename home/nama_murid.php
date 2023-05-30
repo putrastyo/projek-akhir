@@ -12,6 +12,15 @@
   <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 
+<style>
+
+    .navpage {
+        margin-left: 80px;
+    }
+
+</style>
+
+
 <body>
   <!-- Navbar -->
   <div class="navbar bg-danger">
@@ -22,23 +31,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav ms-auto mt-2 mt-lg-0  ">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0 ull ">
+            <li class="nav-item lii">
               <a class="nav-link " href="#" aria-current="page">Murid</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown lii">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Jadwal
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu ull">
                 <li><a class="dropdown-item" href="#">Jadwal Pelajaran</a></li>
                 <li><a class="dropdown-item" href="#">Jadwal Piket</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item lii">
               <a class="nav-link" href="#">Galeri</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item lii">
               <a class="nav-link" href="#">Tugas</a>
             </li>
           </ul>
@@ -58,12 +67,81 @@
       </ol>
     </nav>
     <!-- END BREADCRUMB -->
-
-
   </div>
 
+  <!-- CARD SISWA -->
+    <div class="row">
+
+          <div class="col ms-3 mt-5">
+
+            <div class="card" style="width: 18rem;">
+              <img src="../gambar/jennie.jfif" class="card-img-top" alt="..."> <br>
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>Nama Siswa</b></h5>
+                <p class="card-text">Anggota</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col ms-2 mt-5">
+
+            <div class="card" style="width: 18rem;">
+              <img src="../gambar/jennie.jfif" class="card-img-top" alt="..."> <br>
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>Nama Siswa</b></h5>
+                <p class="card-text">Anggota</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col ms-2 mt-5">
+
+            <div class="card" style="width: 18rem;">
+              <img src="../gambar/jennie.jfif" class="card-img-top" alt="..."> <br>
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>Nama Siswa</b></h5>
+                <p class="card-text">Anggota</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col ms-2 mt-5">
+
+            <div class="card" style="width: 18rem;">
+              <img src="../gambar/jennie.jfif" class="card-img-top" alt="..."> <br>
+              <div class="card-body text-center">
+                <h5 class="card-title"><b>Nama Siswa</b></h5>
+                <p class="card-text">Anggota</p>
+              </div>
+            </div>
+
+          </div>
 
 
+    </div>
+
+    <br><br><br>
+<!-- PAGINATION -->
+  <nav aria-label="Page navigation example navpage">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
 
 

@@ -7,7 +7,18 @@
     font-family: 'poppins', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar a:not(.dropdown-item) {
     color: white;
     margin-left: 12px;
 }
+
+.pfp-detail {
+    width: 50px;
+    
+}
+
+
